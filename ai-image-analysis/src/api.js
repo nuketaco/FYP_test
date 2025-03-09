@@ -3,7 +3,7 @@ import axios from 'axios';
 
 // Use environment variable if available, otherwise use your ngrok URL
 // For local development without ngrok, use http://localhost:5000
-const API_URL = process.env.REACT_APP_API_URL || 'https://4610-109-78-30-80.ngrok-free.app';
+const API_URL = process.env.REACT_APP_API_URL || 'https://05cc-51-37-98-249.ngrok-free.app';
 
 // Helper function to determine if we should use the /analyze endpoint
 // or the root endpoint based on the API URL
